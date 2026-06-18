@@ -13,4 +13,13 @@ public class Produto {
         this.valor = valor;
         this.nome = nome;
     }
+
+    @Override
+    public String toString() {
+        return "Produto{" +
+                "nome='" + nome + '\'' +
+                ", valor=" + valor +
+                ", quantidade=" + quantidade +
+                '}';
+    }
 }
