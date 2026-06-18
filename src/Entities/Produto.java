@@ -1,16 +1,16 @@
 package Entities;
 
-import Enums.Role;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Produto {
-    private String name;
+    private String nome;
     private double valor;
     private int quantidade;
-    private  Locacao locacao;
 
-    public Produto(int quantidade, double valor, String name) {
+    public Produto(int quantidade, double valor, String nome) {
         this.quantidade = quantidade;
         this.valor = valor;
-        this.name = name;
+        this.nome = nome;
     }
 }
