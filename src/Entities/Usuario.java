@@ -41,7 +41,6 @@ public class Usuario {
     public List<Produto> getProdutos() {
         return produtos;
     }
-
     @Override
     public String toString() {
         return "Usuario{" +
