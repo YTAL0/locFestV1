@@ -4,8 +4,6 @@ import Entities.Usuario;
 
 import static Enums.Role.LOCATARIO;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 void main() {
 
     Usuario user1 = new Usuario("Joao", 19, LOCATARIO, "12345", "joao@email.com", "899768342", "020.482.710-02");
